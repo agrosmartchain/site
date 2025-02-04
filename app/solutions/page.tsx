@@ -1,13 +1,9 @@
 ﻿// app/solutions/page.tsx
 export default function SolutionsPage() {
-  return (
-    <section className="space-y-6">
-      <h2 className="text-3xl font-bold text-green-600">Our Solutions</h2>
-      <ul className="list-disc list-inside text-gray-700">
-        <li>Real-time crop monitoring</li>
-        <li>AI-driven predictive analysis</li>
-        <li>Logistics route optimization</li>
-      </ul>
-    </section>
-  );
+    return (
+        <section className="text-center space-y-8">
+            <h1 className="text-4xl font-extrabold text-green-700">Our Solutions</h1>
+            <p className="text-lg">Explore our technology-driven solutions to optimize agricultural production.</p>
+        </section>
+    );
 }
